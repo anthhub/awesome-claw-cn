@@ -19,7 +19,6 @@
 - [云部署方案](#云部署方案)
 - [安全合规](#安全合规)
 - [社区与讨论](#社区与讨论)
-- [横评与对比](#横评与对比)
 - [贡献指南](#贡献指南)
 
 ---
@@ -87,16 +86,13 @@
 
 ## 国产大模型集成
 
-| 模型 | 说明 |
-|------|------|
-| 通义千问 (Qwen) | 阿里云百炼平台官方支持，每日 2000 次免费 |
-| DeepSeek | 国内社区最热门选择，超高性价比 |
-| 智谱 GLM | 支持接入 |
-| 文心一言 (Wenxin) | 百度智能云一键部署 |
-| Kimi (Moonshot) | 支持接入 |
-| MiniMax | 支持接入 |
-| 豆包 (Doubao) | 字节跳动，支持接入 |
-| 讯飞星火 | AstronClaw 云端 AI 助手 |
+- [通义千问 (Qwen)](https://help.aliyun.com/zh/model-studio/openclaw) — 阿里云百炼平台官方支持，每日 2000 次免费
+- [DeepSeek](https://www.160.com/article/11915.html) — 国内社区最热门选择，超高性价比（配置指南）
+- [智谱 GLM](https://clawcn.net/guides/domestic-models) — 支持接入
+- [文心一言 (Wenxin)](https://help.aliyun.com/zh/model-studio/openclaw) — 百度智能云一键部署
+- [Kimi / MiniMax / 豆包](https://blog.csdn.net/weixin_45110225/article/details/157724298) — CSDN 完整配置指南
+- [讯飞星火](https://www.xfyun.cn/doc/spark/Agent-AstronClaw使用指南.html) — AstronClaw 云端 AI 助手
+- [性价比对比](https://help.apiyi.com/en/openclaw-cost-effective-models-deepseek-minimax-glm5-en.html) — DeepSeek / MiniMax / GLM5 性价比横评
 
 ---
 
@@ -145,9 +141,7 @@
 
 ---
 
-## 视频教程
-
-> 以下均为 B 站视频
+## 视频教程（B 站）
 
 - [一个视频搞懂 OpenClaw！](https://www.bilibili.com/video/BV1jEAaz3E6K/) — 470 万+ 播放
 - [接入微信/QQ/飞书教程](https://www.bilibili.com/video/BV1mcwtzVEnt/) — 零度解说
@@ -166,7 +160,7 @@
 - [awesome-openclaw-skills-cn](https://github.com/AgentWorkers/awesome-openclaw-skills-cn) — 3000+ 技能分类
 - [opencrew](https://github.com/AlexAnys/opencrew) — 多智能体协同系统
 - [agents-radar](https://github.com/duanyytop/agents-radar) — OpenClaw 生态中文日报
-- AstronClaw — 讯飞出品云端 AI 助手
+- [AstronClaw](https://www.xfyun.cn/doc/spark/Agent-AstronClaw使用指南.html) — 讯飞出品云端 AI 助手
 
 ---
 
@@ -201,12 +195,7 @@
 - [ClawCN 中文站](https://clawcn.net/start/getting-started)
 - [腾讯云开发者社区专栏](https://cloud.tencent.com/developer/article/2624973)
 - [智源社区讨论](https://hub.baai.ac.cn/view/52807)
-
----
-
-## 横评与对比
-
-- [LINUX DO 论坛 Claw 类项目大横评](https://linux.do/t/topic/1790443)
+- [LINUX DO 论坛 Claw 类项目大横评](https://linux.do/t/topic/1790443) — 对比 OpenClaw、ZeroClaw、NanoClaw、IronClaw 等框架
 - [OpenClaw 生态爆发（知乎）](https://zhuanlan.zhihu.com/p/2011029302767032126)
 
 ---
