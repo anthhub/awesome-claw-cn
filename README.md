@@ -17,6 +17,7 @@
 - [视频教程](#视频教程)
 - [Skills 与插件生态](#skills-与插件生态)
 - [MCP 工具](#mcp-工具)
+- [记忆与 RAG](#记忆与-rag)
 - [Skill 开发](#skill-开发)
 - [云部署方案](#云部署方案)
 - [安全合规](#安全合规)
@@ -38,6 +39,16 @@
 - [goclaw](https://github.com/smallnest/goclaw) — Go 语言重实现的 AI 助手框架
 - [ClawPanel](https://github.com/zhaoxinyi02/ClawPanel) — Go 单二进制可视化管理面板，支持 20+ 通道管理
 - [Nanobot](https://github.com/HKUDS/nanobot) — 港大出品，仅 4000 行 Python 的极简版（34.6K stars）
+- [ZeroClaw](https://github.com/theonlyhennygod/zeroclaw) — Rust 实现，比 OpenClaw 快 400 倍，<10ms 启动，3.4MB，22+ AI 提供商
+- [PicoClaw](https://github.com/sipeed/picoclaw) — Go 实现，运行于 $10 RISC-V 硬件，<10MB RAM（矽速科技出品）
+- [NanoClaw](https://github.com/qwibitai/nanoclaw) — 容器隔离安全架构，基于 Anthropic Claude Agent SDK
+- [ZeptoClaw](https://github.com/qhkm/zeptoclaw) — Rust "终极形态"，集成安全+体积+功能，1300+ 测试
+- [MimiClaw](https://github.com/memovai/mimiclaw) — C 实现，运行在 $5 ESP32-S3 芯片上
+- [TinyClaw](https://github.com/jlia0/tinyclaw) — 多智能体团队协作，专属角色
+- [IronClaw](https://github.com/nearai/ironclaw) — NEAR AI 出品，Rust，侧重隐私与安全
+- [CherryStudio](https://github.com/CherryHQ/cherry-studio) — AI 生产力工作台，300+ 助手预设
+- [n8n-claw](https://github.com/freddy-schuetz/n8n-claw) — 基于 n8n + PostgreSQL 的自主代理
+- [LangBot](https://github.com/langbot-app/LangBot) — 生产级多平台 IM 机器人，支持 Discord/微信/飞书/钉钉/QQ
 
 ---
 
@@ -49,6 +60,7 @@
 - [weclaw](https://github.com/fastclaw-ai/weclaw) — WeChat AI Agent Bridge，支持多模型
 - [openclaw-plugin-wecom](https://github.com/sunnoy/openclaw-plugin-wecom) — 企业微信 AI 机器人，流式输出 + 群聊
 - [nexu](https://github.com/nexu-io/nexu) — 桌面客户端，一键桥接微信/飞书/Slack/Discord
+- [openclaw-wechat-kf](https://github.com/pawastation/wechat-kf) — 微信客服频道，支持文本/图片/语音/视频/小程序，免费
 
 ### 飞书
 
@@ -67,6 +79,8 @@
 ### QQ
 
 - [openclaw-qqbot](https://github.com/tencent-connect/openclaw-qqbot) — 腾讯官方出品
+- [openclaw-onebot](https://github.com/xucheng/openclaw-onebot) — OneBot 11 QQ 频道插件，支持 NapCat/go-cqhttp
+- [openclaw-satori-channel](https://github.com/DoiiarX/openclaw-satori-channel) — Satori 协议，一个插件支持 QQ/Telegram/Discord
 
 ### 小红书
 
@@ -77,6 +91,14 @@
 ### 微博
 
 - [openclaw-weibo](https://github.com/wecode-ai/openclaw-weibo) — 微博私信通道
+
+### 闲鱼
+
+- [xianyu-openclaw-channel](https://github.com/laozuzhen/xianyu-openclaw-channel) — 闲鱼频道插件，自动回复客服、自动发货
+
+### 其他
+
+- [openclaw-serverchan-bot](https://github.com/easychen/openclaw-serverchan-bot) — Server酱³ Bot 频道插件
 
 ### 多平台数据
 
@@ -170,6 +192,8 @@
 - [Rito-w/awesome-openclaw-skills-zh](https://github.com/Rito-w/awesome-openclaw-skills-zh) — 5,494 个技能的中文翻译与分类
 - [awesome-openclaw-skills-cn](https://github.com/AgentWorkers/awesome-openclaw-skills-cn) — 3000+ 技能分类
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — 5,400+ 精选技能（英文，社区最权威）
+- [sundial-org/awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills) — 913 个精选顶级技能
+- [LeoYeAI/openclaw-master-skills](https://github.com/LeoYeAI/openclaw-master-skills) — 339+ 精选技能，每周更新
 
 ### 中文推荐文章
 
@@ -178,6 +202,7 @@
 - [ClawHub 必装 Skills 清单](https://www.cnblogs.com/informatics/p/19679935) — 博客园
 - [52个官方 Skill + 5700 社区 Skill 测评](https://developer.aliyun.com/article/1712680) — 阿里云
 - [新手必看！推荐10个神器技能包](https://cloud.tencent.com/developer/article/2634605) — 腾讯云
+- [liyupi/ai-guide](https://github.com/liyupi/ai-guide) — 程序员鱼皮出品，含 Vibe Coding 教程和 AI 编程变现
 
 ### 热门 Skills
 
@@ -206,6 +231,17 @@
 
 ---
 
+## 记忆与 RAG
+
+- [Mem0 集成](https://docs.mem0.ai/integrations/openclaw) — 最主流的持久记忆方案
+- [MemOS](https://github.com/MemTensor/MemOS) — 记忆操作系统
+- [memov](https://github.com/memovai/memov) — 通用记忆层
+- [OceanBase PowerMem](https://github.com/oceanbase/powermem) — 阿里 OceanBase 出品的记忆后端
+- [Supermemory](https://github.com/supermemoryai/openclaw-supermemory) — Supermemory 集成
+- [openamnesia](https://github.com/vincentkoc/openamnesia) — 持续学习上下文引擎
+
+---
+
 ## Skill 开发
 
 - [官方创建指南](https://docs.openclaw.ai/tools/creating-skills) — 官方 Skill 开发文档
@@ -225,6 +261,10 @@
 - [5 大云平台保姆级教程](https://zhuanlan.zhihu.com/p/2002470825673107300)
 - [多平台实战指南](https://apifox.com/apiskills/openclaw-docker-compose-feishu-dingtalk-wecom/) — Docker Compose + 飞书/钉钉/企微
 - [菜鸟教程一键部署](https://www.runoob.com/ai-agent/openclaw-cloud.html)
+- [HuggingClaw](https://github.com/democra-ai/HuggingClaw) — 免费在 HuggingFace Spaces 部署，2vCPU + 16GB RAM
+- [openclaw-kasmvnc](https://github.com/ddong8/openclaw-kasmvnc) — 浏览器桌面实时观看智能体操作
+- [u-claw](https://github.com/dongsheng123132/u-claw) — 中国离线安装包，适合网络限制环境
+- [OpenClaw-Admin](https://github.com/itq5/OpenClaw-Admin) — Vue 3 网页管理面板
 
 ---
 
@@ -237,6 +277,8 @@
 - [奇安信安全风险排查指南](https://www.qianxin.com/news/detail?news_id=14613) — PIPL/数据安全法合规
 - [国枫律所合规风险分析](https://www.grandwaylaw.com/guofengshijiao/5640.html) — 法律视角
 - [安全内参发展现状与对策报告](https://www.secrss.com/articles/88391)
+- [腾讯 AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) — 腾讯出品，全栈 AI 红队测试平台，含 OpenClaw 安全扫描
+- [慢雾安全实践指南](https://github.com/slowmist/openclaw-security-practice-guide) — 面向 Agentic Zero-Trust 的安全实践
 
 ---
 
