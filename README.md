@@ -15,7 +15,9 @@
 - [国产大模型集成](#国产大模型集成)
 - [中文教程](#中文教程)
 - [视频教程](#视频教程)
-- [中文 Skills 插件](#中文-skills-插件)
+- [Skills 与插件生态](#skills-与插件生态)
+- [MCP 工具](#mcp-工具)
+- [Skill 开发](#skill-开发)
 - [云部署方案](#云部署方案)
 - [安全合规](#安全合规)
 - [社区与讨论](#社区与讨论)
@@ -154,13 +156,63 @@
 
 ---
 
-## 中文 Skills 插件
+## Skills 与插件生态
 
-- [awesome-openclaw-skills-zh](https://github.com/clawdbot-ai/awesome-openclaw-skills-zh) — 中文官方技能库
+### 官方生态
+
+- [ClawHub](https://clawhub.ai/) — 官方技能市场，15,000+ 技能，支持向量语义搜索和 CLI 一键安装
+- [OpenClaw 官方技能仓库](https://github.com/openclaw/skills) — 所有 ClawHub 技能的归档
+- [OpenClaw Skill 文档](https://docs.openclaw.ai/tools/skills) — 官方技能使用文档
+
+### 中文技能列表
+
+- [awesome-openclaw-skills-zh](https://github.com/clawdbot-ai/awesome-openclaw-skills-zh) — 中文官方技能库，支持中文自然语言调用
+- [Rito-w/awesome-openclaw-skills-zh](https://github.com/Rito-w/awesome-openclaw-skills-zh) — 5,494 个技能的中文翻译与分类
 - [awesome-openclaw-skills-cn](https://github.com/AgentWorkers/awesome-openclaw-skills-cn) — 3000+ 技能分类
+- [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — 5,400+ 精选技能（英文，社区最权威）
+
+### 中文推荐文章
+
+- [OpenClaw 最强军火库（2868 个精选 skills）](https://zhuanlan.zhihu.com/p/2010926090475045346) — 知乎
+- [十大必装 OpenClaw Skills](https://zhuanlan.zhihu.com/p/2011751083702256050) — 知乎
+- [ClawHub 必装 Skills 清单](https://www.cnblogs.com/informatics/p/19679935) — 博客园
+- [52个官方 Skill + 5700 社区 Skill 测评](https://developer.aliyun.com/article/1712680) — 阿里云
+- [新手必看！推荐10个神器技能包](https://cloud.tencent.com/developer/article/2634605) — 腾讯云
+
+### 热门 Skills
+
+- Web Browser — 180,000+ 下载，网页浏览与内容提取
+- Telegram Bot — 145,000+ 下载，连接 Telegram
+- GOG (Google Workspace) — Gmail/Calendar/Drive/Sheets 一体化
+- Capability Evolver — 35,000+ 下载，AI 自我进化引擎
+- Tavily Search — AI 优化联网搜索
+
+### 多智能体与工作流
+
 - [opencrew](https://github.com/AlexAnys/opencrew) — 多智能体协同系统
+- [ClawFlows](https://www.sitepoint.com/clawflows-prebuilt-ai-workflows-openclaw/) — 111 个预构建 AI 工作流
 - [agents-radar](https://github.com/duanyytop/agents-radar) — OpenClaw 生态中文日报
 - [AstronClaw](https://www.xfyun.cn/doc/spark/Agent-AstronClaw使用指南.html) — 讯飞出品云端 AI 助手
+
+---
+
+## MCP 工具
+
+- [openclaw-mcp](https://github.com/freema/openclaw-mcp) — OpenClaw MCP 服务器，OAuth2 认证安全桥接 Claude.ai
+- [openclaw-mcp-server](https://github.com/Helms-AI/openclaw-mcp-server) — 将 OpenClaw Gateway 工具暴露给 MCP 客户端
+- [openclaw-claude-code-skill](https://github.com/Enderfga/openclaw-claude-code-skill) — 通过 MCP 集成 Claude Code 能力
+- [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) — 小红书 MCP 服务
+- [MCP 服务器推荐](https://openclawlaunch.com/guides/best-mcp-servers) — 2026 年最佳 MCP 服务器指南
+
+---
+
+## Skill 开发
+
+- [官方创建指南](https://docs.openclaw.ai/tools/creating-skills) — 官方 Skill 开发文档
+- [插件 SDK 文档](https://docs.openclaw.ai/tools/plugin) — Plugin SDK
+- [DataCamp: 自定义 Skill 教程](https://www.datacamp.com/tutorial/building-open-claw-skills) — 实操教程
+- [中文开发指南](https://www.ququ123.top/en/2026/02/openclaw-skill-development/) — 中文 Skill 开发
+- [HackMD 完整攻略](https://hackmd.io/@BASHCAT/rylaWmGuWe) — 繁体中文
 
 ---
 
