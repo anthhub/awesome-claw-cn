@@ -1,10 +1,32 @@
 # Awesome Claw CN
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--28-brightgreen)](https://github.com/anthhub/awesome-claw-cn)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/anthhub/awesome-claw-cn/pulls)
 
-> 中文 OpenClaw 生态资源精选列表
+> 中文 OpenClaw 生态资源精选列表 — 最全、最新、持续更新
 
-收录框架衍生、国内平台集成、国产大模型接入、中文教程、视频教程、技能插件、云部署、安全合规、社区等优质资源。
+收录框架衍生、国内平台集成、国产大模型接入、中文教程、视频教程、技能插件、记忆增强、多 Agent 编排、云部署、安全合规、社区等优质资源。
+
+---
+
+### 本周新增 (2026-03-28)
+
+> 以下项目为本次更新新收录，标注 `NEW` 的为首次入选。
+
+| 项目 | Stars | 亮点 |
+|---|---|---|
+| [OpenViking](https://github.com/volcengine/OpenViking) `NEW` | 19.8k | 字节跳动出品，Agent 上下文数据库，文件系统范式管理记忆/资源/技能 |
+| [NemoClaw](https://github.com/NVIDIA/NemoClaw) `NEW` | 17.6k | NVIDIA 出品，安全沙箱 + 托管推理，两周 17k stars |
+| [edict 三省六部制](https://github.com/cft0808/edict) `NEW` | 13.4k | 9 个专业 AI Agent 编排系统，实时仪表盘 + 审计追踪 |
+| [memU](https://github.com/NevaMind-AI/memU) `NEW` | 13.2k | 24/7 常驻 Agent 专用记忆系统 |
+| [moltworker](https://github.com/cloudflare/moltworker) `NEW` | 9.8k | Cloudflare 官方，Workers 边缘部署 OpenClaw |
+| [AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) `NEW` | 9.4k | 从想法到论文的全自动科研，两周爆涨 |
+| [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) `NEW` | 3.7k | 混合检索长期记忆，向量+BM25+Cross-Encoder 重排序 |
+| [lossless-claw](https://github.com/Martian-Engineering/lossless-claw) `NEW` | 3.7k | 无损上下文管理，DAG 分层摘要，零信息丢失 |
+| [openclaw-a2a-gateway](https://github.com/win4r/openclaw-a2a-gateway) `NEW` | 353 | A2A 协议 v0.3.0，双向 Agent 通信网关 |
+| [openclaw-codex-app-server](https://github.com/pwrdrvr/openclaw-codex-app-server) `NEW` | 150 | Codex 引入 Telegram/Discord |
+| [shellward](https://github.com/jnMetaCode/shellward) `NEW` | 50 | AI Agent 安全中间件，8 层防护 + DLP + Prompt 注入检测 |
 
 ---
 
@@ -17,7 +39,7 @@
 - [视频教程](#视频教程)
 - [Skills 与插件生态](#skills-与插件生态)
 - [MCP 工具](#mcp-工具)
-- [记忆与 RAG](#记忆与-rag)
+- [记忆与上下文管理](#记忆与上下文管理)
 - [Skill 开发](#skill-开发)
 - [云部署方案](#云部署方案)
 - [安全合规](#安全合规)
@@ -45,6 +67,9 @@
 - [ZeptoClaw](https://github.com/qhkm/zeptoclaw) — Rust "终极形态"，集成安全+体积+功能，1300+ 测试
 - [MimiClaw](https://github.com/memovai/mimiclaw) — C 实现，运行在 $5 ESP32-S3 芯片上
 - [TinyClaw](https://github.com/jlia0/tinyclaw) — 多智能体团队协作，专属角色
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw) — **NVIDIA 出品**，在 OpenShell 安全沙箱运行 OpenClaw + 托管推理（17.6K stars）`NEW`
+- [moltworker](https://github.com/cloudflare/moltworker) — **Cloudflare 官方**，在 Workers 边缘网络运行 OpenClaw，全球低延迟（9.8K stars）`NEW`
+- [AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) — 从想法到论文的全自动科研系统，多智能体辩论 + 引用验证（9.4K stars）`NEW`
 - [IronClaw](https://github.com/nearai/ironclaw) — NEAR AI 出品，Rust，侧重隐私与安全
 - [CherryStudio](https://github.com/CherryHQ/cherry-studio) — AI 生产力工作台，300+ 助手预设
 - [n8n-claw](https://github.com/freddy-schuetz/n8n-claw) — 基于 n8n + PostgreSQL 的自主代理
@@ -212,8 +237,11 @@
 - Capability Evolver — 35,000+ 下载，AI 自我进化引擎
 - Tavily Search — AI 优化联网搜索
 
-### 多智能体与工作流
+### 多智能体编排与工作流
 
+- [edict 三省六部制](https://github.com/cft0808/edict) — **9 个专业 AI Agent 编排系统**，实时仪表盘 + 看板视图 + 完整审计追踪，灵感源自中国古代行政制度（13.4K stars）`NEW`
+- [openclaw-a2a-gateway](https://github.com/win4r/openclaw-a2a-gateway) — **A2A 协议 v0.3.0**，双向 Agent 通信网关，标准化多 Agent 互操作（353 stars）`NEW`
+- [openclaw-codex-app-server](https://github.com/pwrdrvr/openclaw-codex-app-server) — 将 OpenAI Codex 引入 Telegram/Discord，跨平台 AI 编程助手 `NEW`
 - [opencrew](https://github.com/AlexAnys/opencrew) — 多智能体协同系统
 - [ClawFlows](https://www.sitepoint.com/clawflows-prebuilt-ai-workflows-openclaw/) — 111 个预构建 AI 工作流
 - [agents-radar](https://github.com/duanyytop/agents-radar) — OpenClaw 生态中文日报
@@ -231,13 +259,36 @@
 
 ---
 
-## 记忆与 RAG
+## 记忆与上下文管理
 
+> Agent 的记忆能力是当前 OpenClaw 生态最活跃的创新方向之一。以下按「长期记忆」和「上下文管理」两个维度整理。
+
+### 长期记忆 vs 上下文管理 — 如何选？
+
+| 维度 | 长期记忆插件 | 上下文管理插件 |
+|---|---|---|
+| **解决什么问题** | 跨会话记住用户偏好、历史决策 | 当前对话超长时不丢失上下文 |
+| **记忆跨度** | 永久（跨会话） | 单会话内 |
+| **代表项目** | memory-lancedb-pro, Mem0, memU | lossless-claw, OpenViking |
+| **插件槽位** | `memory` | `contextEngine` |
+| **能否同时用** | 可以，互补不冲突 | |
+
+**最佳实践：** 同时启用一个长期记忆插件 + 一个上下文管理插件，前者让 Agent 跨会话"认识你"，后者让当前对话"不健忘"。
+
+### 长期记忆
+
+- [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) — **混合检索长期记忆**，向量+BM25+Cross-Encoder 重排序，自动捕获 6 类知识，Weibull 衰减模型（3.7K stars）`NEW`
+- [memU](https://github.com/NevaMind-AI/memU) — **24/7 常驻 Agent 专用**，支持 Claude Skills + MCP 协议，Python 实现（13.2K stars）`NEW`
 - [Mem0 集成](https://docs.mem0.ai/integrations/openclaw) — 最主流的持久记忆方案
-- [MemOS](https://github.com/MemTensor/MemOS) — 记忆操作系统
-- [memov](https://github.com/memovai/memov) — 通用记忆层
 - [OceanBase PowerMem](https://github.com/oceanbase/powermem) — 阿里 OceanBase 出品的记忆后端
 - [Supermemory](https://github.com/supermemoryai/openclaw-supermemory) — Supermemory 集成
+
+### 上下文管理
+
+- [lossless-claw](https://github.com/Martian-Engineering/lossless-claw) — **无损上下文管理**，DAG 分层摘要 + SQLite 持久化，零信息丢失，`lcm_grep`/`lcm_expand` 随时回溯（3.7K stars）`NEW`
+- [OpenViking](https://github.com/volcengine/OpenViking) — **字节跳动火山引擎出品**，Agent 上下文数据库，文件系统范式统一管理记忆/资源/技能，支持分层上下文传递与自进化（19.8K stars）`NEW`
+- [MemOS](https://github.com/MemTensor/MemOS) — 记忆操作系统
+- [memov](https://github.com/memovai/memov) — 通用记忆层
 - [openamnesia](https://github.com/vincentkoc/openamnesia) — 持续学习上下文引擎
 
 ---
@@ -279,6 +330,7 @@
 - [安全内参发展现状与对策报告](https://www.secrss.com/articles/88391)
 - [腾讯 AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) — 腾讯出品，全栈 AI 红队测试平台，含 OpenClaw 安全扫描
 - [慢雾安全实践指南](https://github.com/slowmist/openclaw-security-practice-guide) — 面向 Agentic Zero-Trust 的安全实践
+- [shellward](https://github.com/jnMetaCode/shellward) — AI Agent 安全中间件，8 层纵深防御 + DLP 数据防泄漏 + Prompt 注入检测，零依赖 `NEW`
 
 ---
 
